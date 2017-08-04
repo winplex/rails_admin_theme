@@ -134,8 +134,8 @@ body.rails_admin .sidebar-nav > .nav-stacked > li > a {
   &:focus,
   &:hover,
   &:target {
-    background: darken($secondary, 20%);
-    border-color: darken($secondary, 20%);
+    background: lighten($secondary, 20%);
+    border-color: lighten($secondary, 20%);
   }
 }
 
@@ -261,7 +261,7 @@ a.navbar-brand {
     color: #fff;
 
     &:hover {
-      background: darken($secondary, 10%) !important;
+      background: lighten($secondary, 10%) !important;
     }
 
     a {
