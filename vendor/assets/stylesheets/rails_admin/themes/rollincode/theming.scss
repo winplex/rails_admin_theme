@@ -210,7 +210,7 @@ a.navbar-brand {
   white-space: nowrap;
   color: #fff !important;
   cursor: pointer !important;
-  background: darken($secondary, 10%) !important;
+  background: lighten($secondary, 10%) !important;
 
   &:hover {
     background: darken($secondary, 10%) !important;
