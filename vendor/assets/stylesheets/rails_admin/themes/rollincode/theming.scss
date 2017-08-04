@@ -195,7 +195,7 @@ body.rails_admin .sidebar-nav > .nav-stacked > li > a {
 .navbar-default .navbar-nav > li > a,
 a {
   &:hover {
-    color: $secondary;
+    color: lighten($secondary, 10%) !important;
   }
   color: #fff;
 }
@@ -222,7 +222,7 @@ a.navbar-brand {
   margin-top: 0;
 
   h1 {
-    background: $secondary;
+    background: lighten($secondary, 10%) !important;
     padding: 10px 15px;
     color: #fff;
     border-radius: 2px;
